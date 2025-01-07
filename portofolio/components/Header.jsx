@@ -1,14 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
 import { assets } from '@/assets/assets';
+import {motion } from 'motion/react';
 
 const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4">
-      <div>
+      <motion.div 
+      initial={{scale:0}}
+      whileInView={{scale:1}}
+      transition={{duration:0.8, type:"spring", stiffness: 100 }}
+      >
         {/* TODO: REPLACE THE PROFILE IMAGE! */}
         <Image src={assets.profile_img} alt="Profile picture of Aviv Nataf" className="rounded-full w-32" />
-      </div>
+      </motion.div>
 
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
         Hi! I'm Aviv Nataf <Image src={assets.hand_icon} alt="Waving hand icon" className="w-6" />

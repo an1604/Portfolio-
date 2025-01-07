@@ -17,6 +17,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
+import github_dark from './github_dark.png'
 
 //TODO: MAKE MY PROFILE PIC CIRCULAR AND REPLACE profile_img
 import profile_img from './profile-img.png';
@@ -54,6 +55,7 @@ import ml_dark from './ml_dark.png'
 import cyber_dark from './cyber_dark.png'
 
 export const assets = {
+    github_dark,
     ml_dark,
     cyber_dark,
     linkedin,
