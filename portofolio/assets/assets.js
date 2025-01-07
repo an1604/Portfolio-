@@ -1,4 +1,5 @@
-import user_image from './user-image.png';
+// TODO: REPLACE GOKU WITH MY PROFILE PIC 
+import user_image from './goku.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -6,6 +7,7 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import docker from './docker.png'
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -15,7 +17,10 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
+
+//TODO: MAKE MY PROFILE PIC CIRCULAR AND REPLACE profile_img
 import profile_img from './profile-img.png';
+
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -35,8 +40,15 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import python from './python.png'
+import linux from './linux.png'
+import java from './java.png'
 
 export const assets = {
+    java,
+    python,
+    linux,
+    docker,
     user_image,
     code_icon,
     code_icon_dark,
@@ -107,11 +119,28 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { 
+        icon: assets.code_icon, 
+        iconDark: assets.code_icon_dark, 
+        title: 'Languages', 
+        description: 'Python, Java, C, C++, JavaScript, HTML, CSS, C#, Node.js, React.js, Next.js, VB' 
+    },
+    { 
+        icon: assets.edu_icon, 
+        iconDark: assets.edu_icon_dark, 
+        title: 'Education', 
+        description: 'B.Sc. in Computer Science (2022-2025)' 
+    },
+    { 
+        icon: assets.project_icon, 
+        iconDark: assets.project_icon_dark, 
+        title: 'Projects', 
+        description: 'Led and contributed to impactful projects in AI, cybersecurity, and web development, more than 5 projects. ' 
+    }
 ];
 
+
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.git, assets.docker, assets.python,
+    assets.linux, assets.java
 ];
