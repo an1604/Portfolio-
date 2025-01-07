@@ -104,12 +104,12 @@ export const workData = [
     {
         title: 'Deceptify',
         description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes',
-        bgImage: deceptify,
+        bgImage: '/deceptify.jpeg',
     },
     {
         title: 'JoBot',
-        description: 'Developed multi-agent system to manage the job hunting process and make it more managable, using automations and scraping techniques.',
-        bgImage: joBot,
+        description: 'Developed multi-agent system to manage the job hunting process and make it more manageable, using automations and scraping techniques.',
+        bgImage: '/joBot.png',
     },
     {
         title: 'Devops-Project',
@@ -124,55 +124,56 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.mobile_icon, title: 'Mobile app',
-      description: 'Mobile app development involves creating software for mobile devices...', 
-      link: '' 
+    {
+        icon: assets.mobile_icon, title: 'Mobile app',
+        description: 'Mobile app development involves creating software for mobile devices...',
+        link: ''
     },
-    { 
-        icon: assets.web_icon, 
-        title: 'Web Development', 
-        description: 'Building dynamic and responsive web applications using modern frameworks like React.js, Next.js, and Flask.', 
-        link: '' 
+    {
+        icon: assets.web_icon,
+        title: 'Web Development',
+        description: 'Building dynamic and responsive web applications using modern frameworks like React.js, Next.js, and Flask.',
+        link: ''
     },
-    { 
-        icon: assets.ai_icon, 
-        title: 'AI & Machine Learning Solutions', 
-        description: 'Developing AI-driven models and machine learning solutions for innovative and data-driven applications.', 
-        link: '' 
+    {
+        icon: assets.ai_icon,
+        title: 'AI & Machine Learning Solutions',
+        description: 'Developing AI-driven models and machine learning solutions for innovative and data-driven applications.',
+        link: ''
     },
-    { 
-        icon: assets.cyber_icon, 
-        title: 'Cybersecurity Solutions', 
-        description: 'Implementing secure practices and solutions to enhance system security and prevent vulnerabilities.', 
-        link: '' 
+    {
+        icon: assets.cyber_icon,
+        title: 'Cybersecurity Solutions',
+        description: 'Implementing secure practices and solutions to enhance system security and prevent vulnerabilities.',
+        link: ''
     },
-    { 
-        icon: assets.devops_icon, 
-        title: 'DevSecOps & Automation', 
-        description: 'Streamlining development workflows with CI/CD pipelines, Docker, and infrastructure automation.', 
-        link: '' 
+    {
+        icon: assets.devops_icon,
+        title: 'DevSecOps & Automation',
+        description: 'Streamlining development workflows with CI/CD pipelines, Docker, and infrastructure automation.',
+        link: ''
     }
 ];
 
 
 export const infoList = [
-    { 
-        icon: assets.code_icon, 
-        iconDark: assets.code_icon_dark, 
-        title: 'Languages', 
-        description: 'Python, Java, C, C++, JavaScript, HTML, CSS, C#, Node.js, React.js, Next.js, VB' 
+    {
+        icon: assets.code_icon,
+        iconDark: assets.code_icon_dark,
+        title: 'Languages',
+        description: 'Python, Java, C, C++, JavaScript, HTML, CSS, C#, Node.js, React.js, Next.js, VB'
     },
-    { 
-        icon: assets.edu_icon, 
-        iconDark: assets.edu_icon_dark, 
-        title: 'Education', 
-        description: 'B.Sc. in Computer Science (2022-2025)' 
+    {
+        icon: assets.edu_icon,
+        iconDark: assets.edu_icon_dark,
+        title: 'Education',
+        description: 'B.Sc. in Computer Science (2022-2025)'
     },
-    { 
-        icon: assets.project_icon, 
-        iconDark: assets.project_icon_dark, 
-        title: 'Projects', 
-        description: 'Led and contributed to impactful projects in AI, cybersecurity, and web development, more than 5 projects. ' 
+    {
+        icon: assets.project_icon,
+        iconDark: assets.project_icon_dark,
+        title: 'Projects',
+        description: 'Led and contributed to impactful projects in AI, cybersecurity, and web development, more than 5 projects. '
     }
 ];
 
