@@ -43,8 +43,20 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import python from './python.png'
 import linux from './linux.png'
 import java from './java.png'
+import ai_icon from './ml.png'
+import cyber_icon from './cybersecurity.png'
+import devops_icon from './devops.png'
+import github from './github.png'
+import deceptify from './deceptify.jpeg'
+import joBot from './joBot.png'
 
 export const assets = {
+    joBot,
+    github,
+    deceptify,
+    cyber_icon,
+    devops_icon,
+    ai_icon,
     java,
     python,
     linux,
@@ -90,33 +102,58 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Deceptify',
+        description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes',
+        bgImage: deceptify,
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'JoBot',
+        description: 'Developed multi-agent system to manage the job hunting process and make it more managable, using automations and scraping techniques.',
+        bgImage: joBot,
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Devops-Project',
+        description: 'Implements a React application on the client side and a Node.js server on the backend. The entire application is containerized using Docker and deployed using Git workflows on AWS EC2 instances.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Market Oredering Assistant',
+        description: 'Introducing a new social media platform with AI assistance for seamless market orders from leading companies.',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+    { icon: assets.mobile_icon, title: 'Mobile app',
+      description: 'Mobile app development involves creating software for mobile devices...', 
+      link: '' 
+    },
+    { 
+        icon: assets.web_icon, 
+        title: 'Web Development', 
+        description: 'Building dynamic and responsive web applications using modern frameworks like React.js, Next.js, and Flask.', 
+        link: '' 
+    },
+    { 
+        icon: assets.ai_icon, 
+        title: 'AI & Machine Learning Solutions', 
+        description: 'Developing AI-driven models and machine learning solutions for innovative and data-driven applications.', 
+        link: '' 
+    },
+    { 
+        icon: assets.cyber_icon, 
+        title: 'Cybersecurity Solutions', 
+        description: 'Implementing secure practices and solutions to enhance system security and prevent vulnerabilities.', 
+        link: '' 
+    },
+    { 
+        icon: assets.devops_icon, 
+        title: 'DevSecOps & Automation', 
+        description: 'Streamlining development workflows with CI/CD pipelines, Docker, and infrastructure automation.', 
+        link: '' 
+    }
+];
+
 
 export const infoList = [
     { 
