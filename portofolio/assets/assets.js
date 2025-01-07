@@ -49,8 +49,14 @@ import devops_icon from './devops.png'
 import github from './github.png'
 import deceptify from './deceptify.jpeg'
 import joBot from './joBot.png'
+import linkedin from './linkedin.png'
+import ml_dark from './ml_dark.png'
+import cyber_dark from './cyber_dark.png'
 
 export const assets = {
+    ml_dark,
+    cyber_dark,
+    linkedin,
     joBot,
     github,
     deceptify,
@@ -125,29 +131,34 @@ export const workData = [
 
 export const serviceData = [
     {
+        iconDark: assets.mobile_icon, 
         icon: assets.mobile_icon, title: 'Mobile app',
         description: 'Mobile app development involves creating software for mobile devices...',
         link: ''
     },
     {
+        iconDark: assets.web_icon, 
         icon: assets.web_icon,
         title: 'Web Development',
         description: 'Building dynamic and responsive web applications using modern frameworks like React.js, Next.js, and Flask.',
         link: ''
     },
     {
+        iconDark: assets.ml_dark, 
         icon: assets.ai_icon,
         title: 'AI & Machine Learning Solutions',
         description: 'Developing AI-driven models and machine learning solutions for innovative and data-driven applications.',
         link: ''
     },
     {
+        iconDark: assets.cyber_dark, 
         icon: assets.cyber_icon,
         title: 'Cybersecurity Solutions',
         description: 'Implementing secure practices and solutions to enhance system security and prevent vulnerabilities.',
         link: ''
     },
     {
+        iconDark: assets.devops_icon,
         icon: assets.devops_icon,
         title: 'DevSecOps & Automation',
         description: 'Streamlining development workflows with CI/CD pipelines, Docker, and infrastructure automation.',
