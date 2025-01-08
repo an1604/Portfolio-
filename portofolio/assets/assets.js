@@ -216,3 +216,24 @@ export const webdevData = [
         link: 'https://github.com/an1604/Portfolio-'
     }
 ]
+
+export const cybersecData = [
+    {
+        title: 'OWASP WebGoat Top 10',
+        description: 'Comprehensive solutions and explanations for the OWASP Top 10 security vulnerabilities as demonstrated in WebGoat, an intentionally insecure application designed for learning about application security. Each section includes proofs of our work and detailed approaches used in solving the tasks.',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/an1604/WebGoat-Solutions-'
+    },
+    {
+        title: 'Anonymus Communication Protocol',
+        description: 'This project implements an anonymous communication protocol that enhances privacy by routing messages between two independent hosts through an intermediary server. The server aggregates and randomizes message delivery, effectively obscuring the sender-recipient relationship.',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/an1604/Anonymus-Communication-Protocol'
+    },
+    {
+        title: 'Deceptify',
+        description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes. The primary objective is to enhance organizational awareness and readiness in response to evolving digital threats.',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/an1604/Portfolio-'
+    }
+]

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function cyber() {
+function devops() {
   return (
-    <div>cyber</div>
+    <div>devops</div>
   )
 }
 
-export default cyber
+export default devops
