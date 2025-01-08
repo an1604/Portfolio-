@@ -1,8 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { assets } from '@/assets/assets';
+import { useTheme } from '@/app/context/ThemeContext';
 
-const Footer = ({ isDarkMode }) => {
+const Footer = () => {
+  const isDarkMode = useTheme();
+  
   return (
     <div className="mt-20">
       {/* Logo Section */}

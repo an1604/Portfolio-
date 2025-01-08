@@ -2,9 +2,12 @@ import { assets, serviceData } from '@/assets/assets'
 import React from 'react'
 import Image from 'next/image'
 import {motion } from 'motion/react';
+import { useTheme } from '@/app/context/ThemeContext';
 
-const Services = ({isDarkMode}) => {
-  return (
+const Services = () => {
+    const isDarkMode = useTheme();
+
+    return (
     <motion.div id='services' className='w-full px-[12%] py-10 scroll-mt-20'
     initial={{opacity:0}}
     whileInView={{opacity:1}}

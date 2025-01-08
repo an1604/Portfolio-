@@ -2,8 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import { assets, workData } from '@/assets/assets';
 import { motion } from 'motion/react';
+import { useTheme } from '@/app/context/ThemeContext';
 
-const Work = ({ isDarkMode }) => {
+const Work = () => {
+      const isDarkMode = useTheme();
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
