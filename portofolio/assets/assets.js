@@ -200,20 +200,22 @@ export const webdevData = [
     {
         title: 'Web Eccomerce',
         description: 'An interactive e-commerce platform leveraging MongoDB Atlas, D3.js, and MVC design pattern, featuring secure user authentication, an admin panel for product and user management, and dynamic data visualization. Built with EJS, Node.js, and BingMaps API as part of a collaborative degree project.',
-        bgImage: '/work-3.png',
         link: 'https://github.com/OmerYaakov/webECom/blob/main/README.md'
     },
     {
         title: 'Portfolio',
         description: 'My portfolio website, built with Next.js and React, showcases my skills, projects, and services in web development. Featuring a responsive design, dynamic animations, and seamless navigation, the site highlights my expertise in creating scalable and interactive web applications while leveraging modern frameworks and tools.',
-        bgImage: '/work-3.png',
         link: 'https://github.com/an1604/Portfolio-'
     },
     {
         title: 'JoBot',
         description: 'A multi-agent system designed to streamline the job-hunting process by managing and organizing scraped data. The data is presented on an interactive website built with Flask, with MongoDB powering the backend for robust data storage. This system combines automation and a user-friendly interface to simplify job searching',
-        bgImage: '/work-3.png',
         link: 'https://github.com/an1604/Portfolio-'
+    },
+    {
+        title: 'Market Ordering Asistance',
+        description: "Introducing a new social media platform with AI assistance for seamless market orders from leading companies, using Flask.",
+        link: "https://github.com/an1604/market-oredering-assistant"
     }
 ]
 
@@ -221,19 +223,73 @@ export const cybersecData = [
     {
         title: 'OWASP WebGoat Top 10',
         description: 'Comprehensive solutions and explanations for the OWASP Top 10 security vulnerabilities as demonstrated in WebGoat, an intentionally insecure application designed for learning about application security. Each section includes proofs of our work and detailed approaches used in solving the tasks.',
-        bgImage: '/work-3.png',
         link: 'https://github.com/an1604/WebGoat-Solutions-'
     },
     {
         title: 'Anonymus Communication Protocol',
         description: 'This project implements an anonymous communication protocol that enhances privacy by routing messages between two independent hosts through an intermediary server. The server aggregates and randomizes message delivery, effectively obscuring the sender-recipient relationship.',
-        bgImage: '/work-3.png',
         link: 'https://github.com/an1604/Anonymus-Communication-Protocol'
     },
     {
         title: 'Deceptify',
         description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes. The primary objective is to enhance organizational awareness and readiness in response to evolving digital threats.',
-        bgImage: '/work-3.png',
-        link: 'https://github.com/an1604/Portfolio-'
+        link: 'https://github.com/an1604/Deceptify'
+    },
+    {
+        title: 'GitLeaksController',
+        description: 'A Python-based wrapper for Gitleaks that provides an easy way to scan directories for sensitive information leaks. This tool supports running scans locally or within a Docker container and provides structured outputs for easy integration with other tools.',
+        link: 'https://github.com/an1604/GitLeaksController'
+    }
+]
+export const mobileData = [
+    {
+        title: 'Bkru (still in development)',
+        description: 'A user-friendly application that delivers real-time alerts of various types to users within a specified radius, ensuring timely and relevant notifications for everyone using the app.',
+        link: 'https://github.com/an1604/Bkru'
+    }
+]
+export const aimlData = [
+    {
+        title: 'Automated Negotiation Agent Competition Participation (ANAC)',
+        description: "For 2024's ANAC competition, our team developed a dynamic agent strategy focused on real-time learning and adaptive decision-making. By leveraging historical insights and nuanced behavior analysis, we crafted a negotiation framework designed to optimize concession strategies and excel in challenging scenarios.",
+        link: 'https://github.com/an1604/ANAC'
+    },
+    {
+        title: 'chest-Xray-autoencoder',
+        description: "Pneumonia Detection using Autoencoder and KNN automates pneumonia diagnosis from chest X-ray images by combining autoencoders for feature extraction and KNN for classification. Achieving up to 76.34% accuracy, this project streamlines diagnostics and highlights AI's potential in healthcare.",
+        link: 'https://github.com/an1604/chest-Xray-autoencoder'
+    },
+    {
+        title: 'Market Ordering Asistance',
+        description: "Market Ordering Assistance integrates an intention classification model, fine-tuned to accurately determine user intentions during the buying process. Built with Flask, this AI-powered platform streamlines market orders from leading companies, providing a seamless and efficient shopping experience.",
+        link: "https://github.com/an1604/market-oredering-assistant"
+    },
+    {
+        title: 'Car-loan Assistance',
+        description: "A car loan assistance platform designed to streamline the process of securing car loans for users. This system aims to provide personalized recommendations and loan options tailored to the user's specific needs and financial situation. By simplifying the loan application process and offering targeted solutions, the platform ensures a seamless and user-friendly experience, making it easier for individuals to access the right car loan.",
+        link: 'https://github.com/an1604/Car-loan-assistance'
+    },
+    {
+        title: 'Deceptify',
+        description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes. The primary objective is to enhance organizational awareness and readiness in response to evolving digital threats.',
+        link: 'https://github.com/an1604/Deceptify'
+    },
+    {
+        title: 'AI-auto-form-filler',
+        description: "The Auto Form Filler Chrome Extension is a tool designed to automate the process of filling dynamic or HTML forms on websites. The project leverages AI and communicates with an LLM (Large Language Model) to ensure accurate data population, even for unknown fields. While the Chrome extension interface is available, the actual form-filling functionality is currently managed by the Flask server, with future plans to integrate this feature into the Chrome extension.",
+        link: "https://github.com/an1604/AI-auto-form-filler"
+    }
+]
+
+export const devopsData = [
+    {
+        title: 'Devops project',
+        description: "This project implements a React application on the client side and a Node.js server on the backend. The entire application is containerized using Docker and deployed using Git workflows on AWS EC2 instances.",
+        link: "https://github.com/an1604/Devops-Project"
+    },
+    {
+        title: "DevSecOps CI/CD Pipeline with GitLab",
+        description:"This project focuses on building a DevSecOps pipeline using GitLab, incorporating various security tools and methodologies to ensure comprehensive application security. The pipeline is designed to integrate OWASP WebGoat as the target application and leverage OWASP DefectDojo for vulnerability management and reporting.",
+        link: "https://github.com/an1604/CI-CD-pipeline-gitlab"
     }
 ]

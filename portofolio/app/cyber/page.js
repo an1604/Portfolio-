@@ -44,7 +44,7 @@ function cyber() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-10"
         >
-          {cybersecData.map(({ title, description, bgImage, link }, index) => (
+          {cybersecData.map(({ title, description, link }, index) => (
             <a
               key={index}
               href={link}
@@ -56,12 +56,7 @@ function cyber() {
                 whileHover={{ scale: 1.05 }}
                 className="relative rounded-lg overflow-hidden cursor-pointer shadow-md hover:shadow-lg duration-500"
               >
-                {/* Background Image
-                <div
-                  className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${bgImage})` }}
-                ></div> */}
-
+               
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 duration-300"></div>
 
