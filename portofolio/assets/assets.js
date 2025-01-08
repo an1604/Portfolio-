@@ -136,35 +136,35 @@ export const serviceData = [
         iconDark: assets.mobile_icon, 
         icon: assets.mobile_icon, title: 'Mobile app',
         description: 'Mobile app development involves creating software for mobile devices...',
-        link: ''
+        link: '/mobile'
     },
     {
         iconDark: assets.web_icon, 
         icon: assets.web_icon,
         title: 'Web Development',
         description: 'Building dynamic and responsive web applications using modern frameworks like React.js, Next.js, and Flask.',
-        link: ''
+        link: '/webdev'
     },
     {
         iconDark: assets.ml_dark, 
         icon: assets.ai_icon,
         title: 'AI & Machine Learning Solutions',
         description: 'Developing AI-driven models and machine learning solutions for innovative and data-driven applications.',
-        link: ''
+        link: '/aiml'
     },
     {
         iconDark: assets.cyber_dark, 
         icon: assets.cyber_icon,
         title: 'Cybersecurity Solutions',
         description: 'Implementing secure practices and solutions to enhance system security and prevent vulnerabilities.',
-        link: ''
+        link: '/cyber'
     },
     {
         iconDark: assets.devops_icon,
         icon: assets.devops_icon,
         title: 'DevSecOps & Automation',
         description: 'Streamlining development workflows with CI/CD pipelines, Docker, and infrastructure automation.',
-        link: ''
+        link: '/devops'
     }
 ];
 
@@ -195,3 +195,24 @@ export const toolsData = [
     assets.vscode, assets.mongodb, assets.git, assets.docker, assets.python,
     assets.linux, assets.java
 ];
+
+export const webdevData = [
+    {
+        title: 'Web Eccomerce',
+        description: 'An interactive e-commerce platform leveraging MongoDB Atlas, D3.js, and MVC design pattern, featuring secure user authentication, an admin panel for product and user management, and dynamic data visualization. Built with EJS, Node.js, and BingMaps API as part of a collaborative degree project.',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/OmerYaakov/webECom/blob/main/README.md'
+    },
+    {
+        title: 'Portfolio',
+        description: 'My portfolio website, built with Next.js and React, showcases my skills, projects, and services in web development. Featuring a responsive design, dynamic animations, and seamless navigation, the site highlights my expertise in creating scalable and interactive web applications while leveraging modern frameworks and tools.',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/an1604/Portfolio-'
+    },
+    {
+        title: 'JoBot',
+        description: 'A multi-agent system designed to streamline the job-hunting process by managing and organizing scraped data. The data is presented on an interactive website built with Flask, with MongoDB powering the backend for robust data storage. This system combines automation and a user-friendly interface to simplify job searching',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/an1604/Portfolio-'
+    }
+]

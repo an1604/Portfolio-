@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
 
-const NavBar = ({isDarkMode, setIsDarkMode}) => {
+const NavBar = ({isDarkMode, setIsDarkMode, navigation}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScroll, setIsScroll] = useState(false);
 
@@ -29,7 +29,7 @@ const NavBar = ({isDarkMode, setIsDarkMode}) => {
         flex items-center justify-between z-50 
         ${isScroll ? "bg-white bg-opacity-50 bachdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white-/20" : ""}`}
       >
-        <a href="#top">
+        <a href={navigation ? "/" :"#top"}>
           <Image
             src={isDarkMode ? assets.logo_dark: assets.logo}
             className="w-28 cursor-pointer mr-14"
@@ -42,27 +42,27 @@ const NavBar = ({isDarkMode, setIsDarkMode}) => {
             "bg-white shadow-sm bg-opacity-50 dark:border dark:border-whire/50 dark:bg-transparent"}`}
         >
           <li>
-            <a className="font-Ovo" href="#top">
+            <a className="font-Ovo" href={navigation ? "/#top" : "#top"}>
               Home
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#about">
+            <a className="font-Ovo" href={navigation ? "/#about" : "#about"}>
               About me
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#services">
+            <a className="font-Ovo" href={navigation ? "/#services" : "#services"}>
               Services
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work">
+            <a className="font-Ovo" href={navigation ? "/#work" : "#work"}>
               My works
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">
+            <a className="font-Ovo" href={navigation ? "/#contact" : "#contact"}>
               Contact me
             </a>
           </li>
@@ -74,7 +74,7 @@ const NavBar = ({isDarkMode, setIsDarkMode}) => {
           </button>
 
           <a
-            href="#contact"
+            href={navigation ? '/#contact' : "#contact"}
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500
                 rounded-full ml-4 font-Ovo dark:border-white/50 "
           >
@@ -105,27 +105,27 @@ const NavBar = ({isDarkMode, setIsDarkMode}) => {
           </div>
 
           <li>
-            <a className="font-Ovo" href="#top" onClick={closeMenu}>
+            <a className="font-Ovo" href={navigation ? "/#top" : "#top"} onClick={closeMenu}>
               Home
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#about" onClick={closeMenu}>
+            <a className="font-Ovo" href={navigation ? "/#about" : "#about"} onClick={closeMenu}>
               About me
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#services" onClick={closeMenu}>
+            <a className="font-Ovo" href={navigation ? "/#services" : "#services"} onClick={closeMenu}>
               Services
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work" onClick={closeMenu}>
+            <a className="font-Ovo" href={navigation ? "/#work" : "#work"} onClick={closeMenu}>
               My works
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact" onClick={closeMenu}>
+            <a className="font-Ovo" href={navigation ? "/#contact" : "#contact"} onClick={closeMenu}>
               Contact me
             </a>
           </li>
