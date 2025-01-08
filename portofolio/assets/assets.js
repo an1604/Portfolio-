@@ -112,23 +112,36 @@ export const workData = [
     {
         title: 'Deceptify',
         description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes',
-        bgImage: '/deceptify.jpeg',
+        bgImage: '/work-1.png',
+        link: 'https://github.com/an1604/Deceptify'
+        // bgImage: '/deceptify.jpeg',
     },
     {
         title: 'JoBot',
         description: 'Developed multi-agent system to manage the job hunting process and make it more manageable, using automations and scraping techniques.',
-        bgImage: '/joBot.png',
+        bgImage: '/work-2.png',
+        link: 'https://github.com/an1604/Portfolio-' // TODO: CERATE A REPO FOR THIS JoBot!!
+        // bgImage: '/joBot.png',
     },
+    // {
+    //     title: 'Portfolio',
+    //     description: 'My portfolio website, built with Next.js and React, highlights my skills and projects in web development. With responsive design, dynamic animations, and seamless navigation, it demonstrates my expertise in creating scalable, interactive applications using modern frameworks.',
+    //     bgImage: '/work-3.png',   
+    //     link: 'https://github.com/an1604/Portfolio-'
+    // },
     {
         title: 'Devops-Project',
         description: 'Implements a React application on the client side and a Node.js server on the backend. The entire application is containerized using Docker and deployed using Git workflows on AWS EC2 instances.',
         bgImage: '/work-3.png',
+        link: "https://github.com/an1604/Devops-Project"
     },
     {
         title: 'Market Oredering Assistant',
         description: 'Introducing a new social media platform with AI assistance for seamless market orders from leading companies.',
         bgImage: '/work-4.png',
+        link: "https://github.com/an1604/market-oredering-assistant"
     },
+    
 ]
 
 export const serviceData = [
@@ -210,7 +223,7 @@ export const webdevData = [
     {
         title: 'JoBot',
         description: 'A multi-agent system designed to streamline the job-hunting process by managing and organizing scraped data. The data is presented on an interactive website built with Flask, with MongoDB powering the backend for robust data storage. This system combines automation and a user-friendly interface to simplify job searching',
-        link: 'https://github.com/an1604/Portfolio-'
+        link: 'https://github.com/an1604/Portfolio-' // TODO: CERATE A REPO FOR THIS JoBot!!
     },
     {
         title: 'Market Ordering Asistance',
