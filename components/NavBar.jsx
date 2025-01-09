@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
+import { useTheme } from "@/app/context/ThemeContext";
 
-const NavBar = ({isDarkMode, setIsDarkMode, navigation}) => {
+const NavBar = ({navigation}) => {
+  const { isDarkMode, setIsDarkMode } = useTheme();
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScroll, setIsScroll] = useState(false);
 

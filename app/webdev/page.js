@@ -1,13 +1,13 @@
 'use client';
 import React from 'react';
 import NavBar from '@/components/NavBar';
-import { motion } from 'framer-motion'; // Corrected import
+import { motion } from 'framer-motion';
 import { webdevData } from '@/assets/assets';
 
 function WebDev() {
   return (
     <>
-      <NavBar navigation={true}/>
+      <NavBar navigation={true} />
       <br />
       <br />
       <motion.div
@@ -28,7 +28,7 @@ function WebDev() {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.7 }}
-          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-primary"
         >
           I am a skilled web developer with expertise in HTML, CSS, JavaScript, Flask, Node.js, and React. My experience
           spans front-end and back-end development, including creating dynamic user experiences, building scalable
@@ -60,9 +60,9 @@ function WebDev() {
                 <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 duration-300"></div>
 
                 {/* Content */}
-                <div className="relative z-10 p-6 text-white">
-                  <h3 className="text-xl font-bold text-black">{title}</h3>
-                  <p className="text-sm mt-2 text-black">{description}</p>
+                <div className="relative z-10 p-6 text-white ">
+                  <h3 className="text-xl font-bold text-black dark:text-white">{title}</h3>
+                  <p className="text-sm mt-2 text-black dark:text-white">{description}</p>
                 </div>
               </motion.div>
             </a>

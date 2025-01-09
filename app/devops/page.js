@@ -4,10 +4,10 @@ import NavBar from '@/components/NavBar';
 import { motion } from 'framer-motion'; 
 import { devopsData } from '@/assets/assets';
 
-function devops() {
+function Devops() {
   return (
     <>
-      <NavBar navigation={true}/>
+      <NavBar navigation={true} />
       <br />
       <br />
       <motion.div
@@ -20,21 +20,21 @@ function devops() {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="text-center text-5xl font-Ovo"
+          className="text-center text-5xl font-Ovo dark:text-white"
         >
-          Devops/DevSecOps/Automations
+          DevOps/DevSecOps/Automations
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.7 }}
-          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo dark:text-gray-300"
         >
-       As an enthusiastic in DevOps, DevSecOps, and automation, I specialize in building secure, scalable, 
-       and efficient workflows. My expertise includes deploying production-ready applications using Docker, 
-       Ansible, and AWS, automating CI/CD pipelines with integrated security practices, 
-       and leveraging tools like Selenium for comprehensive testing and automation. 
-       I am passionate about delivering streamlined solutions that enhance development processes while ensuring robust security.
+          As an enthusiast in DevOps, DevSecOps, and automation, I specialize in building secure, scalable, 
+          and efficient workflows. My expertise includes deploying production-ready applications using Docker, 
+          Ansible, and AWS, automating CI/CD pipelines with integrated security practices, 
+          and leveraging tools like Selenium for comprehensive testing and automation. 
+          I am passionate about delivering streamlined solutions that enhance development processes while ensuring robust security.
         </motion.p>
 
         <motion.div
@@ -53,15 +53,15 @@ function devops() {
             >
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="relative rounded-lg overflow-hidden cursor-pointer shadow-md hover:shadow-lg duration-500"
+                className="relative rounded-lg overflow-hidden cursor-pointer shadow-md hover:shadow-lg duration-500 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 duration-300"></div>
 
                 {/* Content */}
-                <div className="relative z-10 p-6 text-white">
-                  <h3 className="text-xl font-bold text-black">{title}</h3>
-                  <p className="text-sm mt-2 text-black">{description}</p>
+                <div className="relative z-10 p-6 text-black dark:text-gray-100">
+                  <h3 className="text-xl font-bold dark:text-white">{title}</h3>
+                  <p className="text-sm mt-2 dark:text-gray-300">{description}</p>
                 </div>
               </motion.div>
             </a>
@@ -72,4 +72,4 @@ function devops() {
   );
 }
 
-export default devops;
+export default Devops;

@@ -2,9 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, infoList, toolsData } from '@/assets/assets'
 import {motion } from 'motion/react';
+import { useTheme } from '@/app/context/ThemeContext';
 
-
-const About = ({isDarkMode}) => {
+const About = () => {
+    const isDarkMode = useTheme();
   return (
     <motion.div 
     initial={{opacity:0}}
