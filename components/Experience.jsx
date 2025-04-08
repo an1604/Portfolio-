@@ -2,49 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'motion/react'
 import { useTheme } from '@/app/context/ThemeContext'
-import { assets } from '@/assets/assets'
+import { assets, experienceData } from '@/assets/assets'
 
 const Experience = () => {
   const { isDarkMode } = useTheme();
-
-  // Placeholder for experience data - will be moved to assets.js in step 2
-  const experienceData = [
-    {
-      title: "Software Engineer (Student Position)",
-      company: "Jit security",
-      location: "Tel Aviv",
-      startDate: "February 2025",
-      endDate: "Present",
-      responsibilities: [
-        "Focused on Python development with extensive use of Docker.",
-        "Wrote and tested features using Pytest."
-      ]
-    },
-    {
-      title: "Computer Programming Instructor",
-      company: "Sunspark College",
-      location: "",
-      startDate: "January 2022",
-      endDate: "September 2024",
-      responsibilities: [
-        "Designed and delivered a comprehensive curriculum on computer and network systems.",
-        "Taught programming languages (VB, Python, Java) to high school students, focusing on real-world applications.",
-        "Mentored 20-30 students per class, helping them develop independent coding projects and problem-solving skills."
-      ]
-    },
-    {
-      title: "Intern",
-      company: "Colman Dev Club Collaboration",
-      location: "",
-      startDate: "November 2022",
-      endDate: "June 2023",
-      responsibilities: [
-        "Worked on JavaScript and React projects, contributing to front-end development and enhancing web applications.",
-        "Participated in workshops, collaborating with peers to develop and deploy practical web solutions.",
-        "Implemented dynamic features for projects, improving user experience and functionality."
-      ]
-    }
-  ];
 
   return (
     <motion.div 
@@ -96,7 +57,7 @@ const Experience = () => {
             dark:hover:bg-darkHover dark:hover:shadow-white'
           >
             <Image 
-              src={isDarkMode ? assets.code_icon_dark : assets.code_icon} 
+              src={isDarkMode ? experience.iconDark : experience.icon} 
               alt='' 
               className='w-10'
             />
