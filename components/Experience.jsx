@@ -39,7 +39,7 @@ const Experience = () => {
         transition={{duration:0.5, delay:0.7 }}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'
       >
-        Aspiring software developer with expertise in Python, Java, full-stack development, and experience in AI-driven solutions and cybersecurity. Passionate about creating innovative solutions and contributing to impactful projects in software development, focusing on AI and cybersecurity.
+        My career journey includes working with cutting-edge technologies at Jit Security, mentoring students as a programming instructor, and contributing to development projects through collaborative environments. Each role has sharpened my technical expertise while developing my ability to communicate complex concepts and deliver impactful solutions.
       </motion.p>
 
       <motion.div
