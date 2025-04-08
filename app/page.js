@@ -7,12 +7,11 @@ import Services from "@/components/Services";
 import Work from "@/components/Work";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { ThemeProvider } from "./context/ThemeContext";
 
 
 export default function Home() {
   return (
-    <ThemeProvider>
+    <>
       <NavBar navigation={false} />
       <br />
       <Header />
@@ -21,6 +20,6 @@ export default function Home() {
       <Work />
       <Contact />
       <Footer />
-    </ThemeProvider>
+    </>
   );
 }
