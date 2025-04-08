@@ -120,15 +120,15 @@ export const workData = [
         title: 'JoBot',
         description: 'Developed multi-agent system to manage the job hunting process and make it more manageable, using automations and scraping techniques.',
         bgImage: '/work-2.png',
-        link: 'https://github.com/an1604/Portfolio-' // TODO: CERATE A REPO FOR THIS JoBot!!
+        link: 'https://github.com/an1604/JoBot' // TODO: CERATE A REPO FOR THIS JoBot!!
         // bgImage: '/joBot.png',
     },
-    // {
-    //     title: 'Portfolio',
-    //     description: 'My portfolio website, built with Next.js and React, highlights my skills and projects in web development. With responsive design, dynamic animations, and seamless navigation, it demonstrates my expertise in creating scalable, interactive applications using modern frameworks.',
-    //     bgImage: '/work-3.png',   
-    //     link: 'https://github.com/an1604/Portfolio-'
-    // },
+    {
+        title: 'Portfolio',
+        description: 'My portfolio website, built with Next.js and React, highlights my skills and projects in web development. With responsive design, dynamic animations, and seamless navigation, it demonstrates my expertise in creating scalable, interactive applications using modern frameworks.',
+        bgImage: '/work-3.png',   
+        link: 'https://github.com/an1604/Portfolio-'
+    },
     {
         title: 'Devops-Project',
         description: 'Implements a React application on the client side and a Node.js server on the backend. The entire application is containerized using Docker and deployed using Git workflows on AWS EC2 instances.',
@@ -304,5 +304,49 @@ export const devopsData = [
         title: "DevSecOps CI/CD Pipeline with GitLab",
         description:"This project focuses on building a DevSecOps pipeline using GitLab, incorporating various security tools and methodologies to ensure comprehensive application security. The pipeline is designed to integrate OWASP WebGoat as the target application and leverage OWASP DefectDojo for vulnerability management and reporting.",
         link: "https://github.com/an1604/CI-CD-pipeline-gitlab"
+    }
+]
+
+export const experienceData = [
+    {
+      title: "Software Engineer (Student Position)",
+      company: "Jit security",
+      location: "Tel Aviv",
+      startDate: "February 2025",
+      endDate: "Present",
+      responsibilities: [
+        "Focused on Python development with extensive use of Docker.",
+        "Wrote and tested features using Pytest."
+      ],
+      icon: assets.code_icon,
+      iconDark: assets.code_icon_dark
+    },
+    {
+      title: "Computer Programming Instructor",
+      company: "Sunspark College",
+      location: "",
+      startDate: "January 2022",
+      endDate: "September 2024",
+      responsibilities: [
+        "Designed and delivered a comprehensive curriculum on computer and network systems.",
+        "Taught programming languages (VB, Python, Java) to high school students, focusing on real-world applications.",
+        "Mentored 20-30 students per class, helping them develop independent coding projects and problem-solving skills."
+      ],
+      icon: assets.edu_icon,
+      iconDark: assets.edu_icon_dark
+    },
+    {
+      title: "Intern",
+      company: "Colman Dev Club Collaboration",
+      location: "",
+      startDate: "November 2022",
+      endDate: "June 2023",
+      responsibilities: [
+        "Worked on JavaScript and React projects, contributing to front-end development and enhancing web applications.",
+        "Participated in workshops, collaborating with peers to develop and deploy practical web solutions.",
+        "Implemented dynamic features for projects, improving user experience and functionality."
+      ],
+      icon: assets.code_icon,
+      iconDark: assets.code_icon_dark
     }
 ]
