@@ -5,7 +5,8 @@ import {motion } from 'motion/react';
 import { useTheme } from '@/app/context/ThemeContext';
 
 const About = () => {
-    const isDarkMode = useTheme();
+    const { isDarkMode } = useTheme();
+    console.log("Theme state:", isDarkMode); // Debug log
   return (
     <motion.div 
     initial={{opacity:0}}
