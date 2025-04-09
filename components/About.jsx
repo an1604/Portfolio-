@@ -5,7 +5,8 @@ import {motion } from 'motion/react';
 import { useTheme } from '@/app/context/ThemeContext';
 
 const About = () => {
-    const isDarkMode = useTheme();
+    const { isDarkMode } = useTheme();
+    console.log("Theme state:", isDarkMode); // Debug log
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -80,7 +81,7 @@ const About = () => {
                     whileInView={{opacity:1}}
                     transition={{duration:0.6, delay: 1.5}}
                     className='flex items-center gap-3 sm:gap-5'>
-                        {toolsData.map((tool, index)=>(
+                        {toolsData(isDarkMode).map((tool, index)=>(
                             <motion.li 
                             whileHover={{ scale:1.1}}
                             key={index} className='flex items-center justify-center w-12

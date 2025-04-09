@@ -18,6 +18,9 @@ import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import github_dark from './github_dark.png'
+// Import the Cursor icon PNGs
+import cursor_light from './cursor_light.png';
+import cursor_dark from './cursor_dark.png';
 
 //TODO: MAKE MY PROFILE PIC CIRCULAR AND REPLACE profile_img
 import profile_img from './profile-img.png';
@@ -55,6 +58,8 @@ import ml_dark from './ml_dark.png'
 import cyber_dark from './cyber_dark.png'
 
 export const assets = {
+    cursor_light,
+    cursor_dark,
     github_dark,
     ml_dark,
     cyber_dark,
@@ -204,9 +209,9 @@ export const infoList = [
 ];
 
 
-export const toolsData = [
+export const toolsData = (isDarkMode) => [
     assets.vscode, assets.mongodb, assets.git, assets.docker, assets.python,
-    assets.linux, assets.java
+    assets.linux, assets.java, isDarkMode ? assets.cursor_dark : assets.cursor_light
 ];
 
 export const webdevData = [
