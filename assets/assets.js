@@ -318,7 +318,7 @@ export const experienceData = [
       company: "Jit security",
       location: "Tel Aviv",
       startDate: "February 2025",
-      endDate: "Present",
+      endDate: "April 2025",
       responsibilities: [
         "Focused on Python development with extensive use of Docker.",
         "Wrote and tested features using Pytest."

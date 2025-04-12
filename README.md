@@ -5,18 +5,26 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx next dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command uses turbopack for faster development. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+## Running in Production Mode
+
+To run the application in production mode after building:
+
+```bash
+# Build the application
+npm run build
+
+# Start the production server on port 3001
+npm run prod
+```
+
+The application will be available at [http://localhost:3001](http://localhost:3001).
 
 ## Docker Deployment
 
@@ -26,7 +34,7 @@ To build and run the application using Docker:
 # Build the Docker image
 docker build -t portfolio .
 
-# Run the container
+# Run the container (maps host port 3000 to container port 3001)
 docker run -d -p 3000:3001 portfolio
 ```
 
