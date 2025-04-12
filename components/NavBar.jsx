@@ -72,6 +72,35 @@ const NavBar = ({navigation}) => {
         </ul>
 
         <div className="flex items-center gap-4">
+          {/* Social Media Links */}
+          <div className="flex items-center gap-3">
+            {/* LinkedIn Link */}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/aviv-nataf-757aa1247/"
+            >
+              <Image
+                src={assets.linkedin}
+                alt="LinkedIn Icon"
+                className="w-6 h-6 hover:opacity-80 transition-opacity duration-300"
+              />
+            </a>
+            
+            {/* GitHub Link */}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/an1604"
+            >
+              <Image
+                src={isDarkMode ? assets.github_dark : assets.github}
+                alt="GitHub Icon"
+                className="w-6 h-6 hover:opacity-80 transition-opacity duration-300"
+              />
+            </a>
+          </div>
+
           <button onClick={()=>setIsDarkMode(prev => !prev)}>
             <Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt="" className="w-6" />
           </button>
@@ -105,6 +134,32 @@ const NavBar = ({navigation}) => {
               alt="" 
               className="w-4 cursor-pointer" 
             />
+          </div>
+
+          {/* Social Media Links in Mobile Menu */}
+          <div className="flex items-center justify-center gap-4 mb-6 mt-2">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/aviv-nataf-757aa1247/"
+            >
+              <Image
+                src={assets.linkedin}
+                alt="LinkedIn Icon"
+                className="w-7 h-7 hover:opacity-80 transition-opacity duration-300"
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/an1604"
+            >
+              <Image
+                src={isDarkMode ? assets.github_dark : assets.github}
+                alt="GitHub Icon"
+                className="w-7 h-7 hover:opacity-80 transition-opacity duration-300"
+              />
+            </a>
           </div>
 
           <li>
