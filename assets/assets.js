@@ -320,8 +320,12 @@ export const experienceData = [
       startDate: "February 2025",
       endDate: "April 2025",
       responsibilities: [
-        "Focused on Python development with extensive use of Docker.",
-        "Wrote and tested features using Pytest."
+        "Developed security tools using agile methodology and scrum practices, resulting in iterative improvements and timely feature delivery.",
+        "Built and maintained containerized security applications with Docker, ensuring consistent deployment across environments.",
+        "Implemented CI/CD pipelines that automatically built, tested, and deployed security tools to AWS ECR for scalable customer delivery.",
+        "Wrote robust Python code following test-driven development with Pytest for reliable security scanning and analysis tools.",
+        "Collaborated with DevSecOps teams to integrate security scanning into customers' development workflows, improving their security posture.",
+        "Optimized container configurations to ensure security tools could scale effectively based on customer demand and usage patterns."
       ],
       icon: assets.code_icon,
       iconDark: assets.code_icon_dark
