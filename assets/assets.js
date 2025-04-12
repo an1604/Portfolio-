@@ -320,12 +320,12 @@ export const experienceData = [
       startDate: "February 2025",
       endDate: "April 2025",
       responsibilities: [
-        "Developed security tools using agile methodology and scrum practices, resulting in iterative improvements and timely feature delivery.",
-        "Built and maintained containerized security applications with Docker, ensuring consistent deployment across environments.",
-        "Implemented CI/CD pipelines that automatically built, tested, and deployed security tools to AWS ECR for scalable customer delivery.",
-        "Wrote robust Python code following test-driven development with Pytest for reliable security scanning and analysis tools.",
-        "Collaborated with DevSecOps teams to integrate security scanning into customers' development workflows, improving their security posture.",
-        "Optimized container configurations to ensure security tools could scale effectively based on customer demand and usage patterns."
+        "Developed security tools using agile methodology, ensuring iterative improvements and timely delivery.",
+        "Built containerized security applications with Docker for consistent cross-environment deployment.",
+        "Implemented CI/CD pipelines to deploy security tools to AWS ECR for scalable customer delivery.",
+        "Created Python code with test-driven development for reliable security scanning tools.",
+        "Integrated security scanning into customers' development workflows to improve security posture.",
+        "Optimized containers for effective scaling based on customer demand and usage patterns."
       ],
       icon: assets.code_icon,
       iconDark: assets.code_icon_dark
