@@ -24,6 +24,6 @@ jobs:
               docker stop $CONTAINER_ID
               docker rm $CONTAINER_ID
             fi
-            
+
             git pull origin main
-            ./deploy_docker.sh &
+            ./deploy_docker.sh
