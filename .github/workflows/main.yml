@@ -19,7 +19,11 @@ jobs:
           port: 22
           script: |
             cd Portfolio-/
-            docker stop portofolio
-            docker rm portofolio
+            CONTAINER_ID=$(docker ps -q --filter ancestor=portfolio)
+            if [ ! -z "$CONTAINER_ID" ]; then
+              docker stop $CONTAINER_ID
+              docker rm $CONTAINER_ID
+            fi
+            
             git pull origin main
             ./deploy_docker.sh &
