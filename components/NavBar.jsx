@@ -55,6 +55,11 @@ const NavBar = ({navigation}) => {
             </a>
           </li>
           <li>
+            <a className="font-Ovo" href={navigation ? "/#education" : "#education"}>
+              Education
+            </a>
+          </li>
+          <li>
             <a className="font-Ovo" href={navigation ? "/#experience" : "#experience"}>
               Experience
             </a>
@@ -170,6 +175,11 @@ const NavBar = ({navigation}) => {
           <li>
             <a className="font-Ovo" href={navigation ? "/#about" : "#about"} onClick={closeMenu}>
               About me
+            </a>
+          </li>
+          <li>
+            <a className="font-Ovo" href={navigation ? "/#education" : "#education"} onClick={closeMenu}>
+              Education
             </a>
           </li>
           <li>
