@@ -115,6 +115,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Campaign Connect',
+        description: 'A scalable multi-channel messaging platform built with a microservices architecture that orchestrates targeted campaigns across Telegram, WhatsApp, and AI-powered conversation channels.',
+        bgImage: '/work-5.png',
+        link: '#' // Placeholder since project is currently closed-source
+    },
+    {
         title: 'Deceptify',
         description: 'Utilizing AI to orchestrate social engineering attacks, leveraging generative AI content such as deepfakes',
         bgImage: '/work-1.png',
@@ -216,6 +222,11 @@ export const toolsData = (isDarkMode) => [
 
 export const webdevData = [
     {
+        title: 'Campaign Connect',
+        description: 'A scalable multi-channel messaging platform built with a microservices architecture that orchestrates targeted campaigns across Telegram, WhatsApp, and AI-powered conversation channels. The system features real-time campaign management through a React UI, with distributed services handling different communication channels, including an AI service powered by RAG and local LLMs for context-aware responses.',
+        link: '#' // Placeholder since project is currently closed-source
+    },
+    {
         title: 'Web Eccomerce',
         description: 'An interactive e-commerce platform leveraging MongoDB Atlas, D3.js, and MVC design pattern, featuring secure user authentication, an admin panel for product and user management, and dynamic data visualization. Built with EJS, Node.js, and BingMaps API as part of a collaborative degree project.',
         link: 'https://github.com/OmerYaakov/webECom/blob/main/README.md'
@@ -267,6 +278,11 @@ export const mobileData = [
     }
 ]
 export const aimlData = [
+    {
+        title: 'Campaign Connect',
+        description: 'A multi-channel messaging system featuring an AI Service built with FastAPI, LangChain, and Ollama for providing RAG-based, context-aware responses using local LLMs. This component enhances campaign effectiveness by generating intelligent, personalized responses to user queries across different messaging platforms.',
+        link: '#' // Placeholder since project is currently closed-source
+    },
     {
         title: 'Automated Negotiation Agent Competition Participation (ANAC)',
         description: "For 2024's ANAC competition, our team developed a dynamic agent strategy focused on real-time learning and adaptive decision-making. By leveraging historical insights and nuanced behavior analysis, we crafted a negotiation framework designed to optimize concession strategies and excel in challenging scenarios.",
