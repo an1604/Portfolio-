@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { assets, workData } from '@/assets/assets';
 import { motion } from 'motion/react';
 import { useTheme } from '@/app/context/ThemeContext';
+import ProjectPopup from './ProjectPopup';
 
 const Work = () => {
-      const isDarkMode = useTheme();
+    const isDarkMode = useTheme();
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+    const [selectedProject, setSelectedProject] = useState(null);
+
+    const handleProjectClick = (project, event) => {
+        if (project.title === 'Campaign Connect') {
+            event.preventDefault();
+            setSelectedProject(project);
+            setIsPopupOpen(true);
+        }
+    };
+
+    const handleClosePopup = () => {
+        setIsPopupOpen(false);
+    };
 
     return (
         <motion.div
@@ -67,6 +82,7 @@ const Work = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block"
+                        onClick={(e) => handleProjectClick(project, e)}
                     >
                         <motion.div
                             whileHover={{ scale: 1.05 }}
@@ -114,6 +130,13 @@ const Work = () => {
                     className="w-4"
                 />
             </motion.a>
+
+            {/* Project Popup */}
+            <ProjectPopup 
+                isOpen={isPopupOpen} 
+                onClose={handleClosePopup} 
+                project={selectedProject}
+            />
         </motion.div>
     );
 };
