@@ -8,12 +8,18 @@ import ProjectPopup from './ProjectPopup';
 const Work = () => {
     const isDarkMode = useTheme();
     const [isPopupOpen, setIsPopupOpen] = useState(false);
+    const [selectedProject, setSelectedProject] = useState(null);
 
     const handleProjectClick = (project, event) => {
         if (project.title === 'Campaign Connect') {
             event.preventDefault();
+            setSelectedProject(project);
             setIsPopupOpen(true);
         }
+    };
+
+    const handleClosePopup = () => {
+        setIsPopupOpen(false);
     };
 
     return (
@@ -128,7 +134,8 @@ const Work = () => {
             {/* Project Popup */}
             <ProjectPopup 
                 isOpen={isPopupOpen} 
-                onClose={() => setIsPopupOpen(false)} 
+                onClose={handleClosePopup} 
+                project={selectedProject}
             />
         </motion.div>
     );

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 
-const ProjectPopup = ({ isOpen, onClose }) => {
+const ProjectPopup = ({ isOpen, onClose, project }) => {
   // Prevent scrolling when popup is open
   useEffect(() => {
     if (isOpen) {
@@ -15,7 +15,7 @@ const ProjectPopup = ({ isOpen, onClose }) => {
     };
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !project) return null;
 
   return (
     <motion.div 
@@ -46,7 +46,7 @@ const ProjectPopup = ({ isOpen, onClose }) => {
         </button>
         
         {/* Title */}
-        <h3 className="text-xl font-Ovo font-semibold dark:text-white mb-4">Campaign Connect</h3>
+        <h3 className="text-xl font-Ovo font-semibold dark:text-white mb-4">{project.title}</h3>
         
         {/* Message */}
         <div className="dark:text-white font-Ovo">
