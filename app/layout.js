@@ -13,8 +13,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - Aviv Nataf",
-  description: "Software development and cybersecurity portfolio by Aviv Nataf",
+  title: "Aviv Nataf | Software Developer",
+  description: "Software development portfolio by Aviv Nataf",
 };
 
 export const viewport = {
