@@ -321,7 +321,7 @@ export const aimlData = [
     {
         title: 'GenAI News Assistant MCP Server (Python)',
         description: 'A Python-based MCP server that integrates NewsAPI.org for news retrieval and OpenAI API for NLP tasks. Provides tools for news search, information extraction, and sentiment analysis via SSE transport. Includes Docker support and automated tests.',
-        link: 'https://github.com/an1604/news-assistant-python'
+        link: 'https://github.com/an1604/news-mcp-server'
     }
 ]
 
@@ -340,6 +340,11 @@ export const devopsData = [
         title: 'Faddom CPU Usage Monitor',
         description: 'A full-stack application for real-time monitoring of AWS EC2 CPU usage. Features a React frontend dashboard and a Node.js/Express backend that fetches metrics from AWS CloudWatch. Includes a proof-of-concept video in the repository.',
         link: 'https://github.com/an1604/cpu_usage'
+    },
+    {
+        title: 'DevOps terraform project',
+        description: 'Implements robust, automated AWS infrastructure deployment using Terraform, Docker, and GitHub Actions. Features remote state management (S3 + DynamoDB), reusable modules, and secure best practices for team collaboration and CI/CD.',
+        link: 'https://github.com/an1604/devops-home-assignment'
     }
 ]
 
