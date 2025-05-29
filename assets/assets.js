@@ -317,6 +317,11 @@ export const aimlData = [
         title: 'AI-auto-form-filler',
         description: "The Auto Form Filler Chrome Extension is a tool designed to automate the process of filling dynamic or HTML forms on websites. The project leverages AI and communicates with an LLM (Large Language Model) to ensure accurate data population, even for unknown fields. While the Chrome extension interface is available, the actual form-filling functionality is currently managed by the Flask server, with future plans to integrate this feature into the Chrome extension.",
         link: "https://github.com/an1604/AI-auto-form-filler"
+    },
+    {
+        title: 'GenAI News Assistant MCP Server (Python)',
+        description: 'A Python-based MCP server that integrates NewsAPI.org for news retrieval and OpenAI API for NLP tasks. Provides tools for news search, information extraction, and sentiment analysis via SSE transport. Includes Docker support and automated tests.',
+        link: 'https://github.com/an1604/news-assistant-python'
     }
 ]
 
