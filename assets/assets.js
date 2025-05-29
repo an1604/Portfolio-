@@ -245,6 +245,11 @@ export const webdevData = [
         title: 'Market Ordering Asistance',
         description: "Introducing a new social media platform with AI assistance for seamless market orders from leading companies, using Flask.",
         link: "https://github.com/an1604/market-oredering-assistant"
+    },
+    {
+        title: 'Faddom CPU Usage Monitor',
+        description: 'A full-stack application for real-time monitoring of AWS EC2 CPU usage. Features a React frontend dashboard and a Node.js/Express backend that fetches metrics from AWS CloudWatch. Includes a proof-of-concept video in the repository.',
+        link: 'https://github.com/an1604/cpu_usage'
     }
 ]
 
@@ -325,6 +330,11 @@ export const devopsData = [
         title: "DevSecOps CI/CD Pipeline with GitLab",
         description:"This project focuses on building a DevSecOps pipeline using GitLab, incorporating various security tools and methodologies to ensure comprehensive application security. The pipeline is designed to integrate OWASP WebGoat as the target application and leverage OWASP DefectDojo for vulnerability management and reporting.",
         link: "https://github.com/an1604/CI-CD-pipeline-gitlab"
+    },
+    {
+        title: 'Faddom CPU Usage Monitor',
+        description: 'A full-stack application for real-time monitoring of AWS EC2 CPU usage. Features a React frontend dashboard and a Node.js/Express backend that fetches metrics from AWS CloudWatch. Includes a proof-of-concept video in the repository.',
+        link: 'https://github.com/an1604/cpu_usage'
     }
 ]
 
