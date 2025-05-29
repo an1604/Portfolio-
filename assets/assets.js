@@ -245,6 +245,11 @@ export const webdevData = [
         title: 'Market Ordering Asistance',
         description: "Introducing a new social media platform with AI assistance for seamless market orders from leading companies, using Flask.",
         link: "https://github.com/an1604/market-oredering-assistant"
+    },
+    {
+        title: 'Faddom CPU Usage Monitor',
+        description: 'A full-stack application for real-time monitoring of AWS EC2 CPU usage. Features a React frontend dashboard and a Node.js/Express backend that fetches metrics from AWS CloudWatch. Includes a proof-of-concept video in the repository.',
+        link: 'https://github.com/an1604/cpu_usage'
     }
 ]
 
@@ -312,6 +317,11 @@ export const aimlData = [
         title: 'AI-auto-form-filler',
         description: "The Auto Form Filler Chrome Extension is a tool designed to automate the process of filling dynamic or HTML forms on websites. The project leverages AI and communicates with an LLM (Large Language Model) to ensure accurate data population, even for unknown fields. While the Chrome extension interface is available, the actual form-filling functionality is currently managed by the Flask server, with future plans to integrate this feature into the Chrome extension.",
         link: "https://github.com/an1604/AI-auto-form-filler"
+    },
+    {
+        title: 'GenAI News Assistant MCP Server (Python)',
+        description: 'A Python-based MCP server that integrates NewsAPI.org for news retrieval and OpenAI API for NLP tasks. Provides tools for news search, information extraction, and sentiment analysis via SSE transport. Includes Docker support and automated tests.',
+        link: 'https://github.com/an1604/news-mcp-server'
     }
 ]
 
@@ -325,6 +335,16 @@ export const devopsData = [
         title: "DevSecOps CI/CD Pipeline with GitLab",
         description:"This project focuses on building a DevSecOps pipeline using GitLab, incorporating various security tools and methodologies to ensure comprehensive application security. The pipeline is designed to integrate OWASP WebGoat as the target application and leverage OWASP DefectDojo for vulnerability management and reporting.",
         link: "https://github.com/an1604/CI-CD-pipeline-gitlab"
+    },
+    {
+        title: 'Faddom CPU Usage Monitor',
+        description: 'A full-stack application for real-time monitoring of AWS EC2 CPU usage. Features a React frontend dashboard and a Node.js/Express backend that fetches metrics from AWS CloudWatch. Includes a proof-of-concept video in the repository.',
+        link: 'https://github.com/an1604/cpu_usage'
+    },
+    {
+        title: 'DevOps terraform project',
+        description: 'Implements robust, automated AWS infrastructure deployment using Terraform, Docker, and GitHub Actions. Features remote state management (S3 + DynamoDB), reusable modules, and secure best practices for team collaboration and CI/CD.',
+        link: 'https://github.com/an1604/devops-home-assignment'
     }
 ]
 
